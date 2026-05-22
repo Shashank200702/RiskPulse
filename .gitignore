@@ -1,0 +1,9 @@
+.env
+venv/
+__pycache__/
+*.pyc
+backend/data/
+node_modules/
+dist/
+backend/__pycache__/
+backend/risk_analyzer_old.py

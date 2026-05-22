@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.landing {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: all 0.6s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.landing.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── HERO ── */
+.lp-hero {
+  display: grid;
+  grid-template-columns: 1fr 440px;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px 80px;
+  min-height: calc(100vh - 68px);
+}
+
+@media (max-width: 960px) {
+  .lp-hero { grid-template-columns: 1fr; min-height: auto; }
+  .lp-hero-right { display: none; }
+}
+
+.lp-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #dc2626;
+  margin-bottom: 28px;
+}
+
+.lp-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc2626;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.8); }
+}
+
+.lp-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(44px, 6vw, 80px);
+  font-weight: 900;
+  line-height: 1.04;
+  color: #0f1f3d;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+
+.lp-title em {
+  font-style: italic;
+  color: #dc2626;
+  position: relative;
+}
+
+.lp-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 700;
+  font-style: italic;
+  color: #64748b;
+  margin-bottom: 28px;
+  letter-spacing: -0.5px;
+}
+
+.lp-desc {
+  font-size: 16px;
+  color: #475569;
+  line-height: 1.8;
+  max-width: 520px;
+  margin-bottom: 36px;
+}
+
+.lp-desc strong { color: #0f1f3d; font-weight: 700; }
+
+.lp-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.lp-cta {
+  background: #0f1f3d;
+  color: #fef9f0;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: -0.2px;
+}
+
+.lp-cta:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(220,38,38,0.3);
+}
+
+.lp-cta-large {
+  font-size: 18px;
+  padding: 18px 48px;
+}
+
+.lp-hint {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #94a3b8;
+  letter-spacing: 0.04em;
+}
+
+/* ── THREAT BOX ── */
+.lp-threat-box {
+  background: #fff;
+  border: 1px solid #e5ddd0;
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: 0 4px 20px rgba(15,31,61,0.08);
+  max-width: 520px;
+}
+
+.lp-threat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.lp-tb-live {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 700;
+  color: #dc2626;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.1em;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.lp-tb-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+.lp-threat-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  opacity: 0.4;
+  transition: all 0.4s ease;
+  border-left: 3px solid transparent;
+}
+
+.lp-threat-row.active {
+  opacity: 1;
+  background: #faf8f4;
+  border-left-color: #dc2626;
+}
+
+.lp-tr-country { font-size: 13px; font-weight: 600; color: #0f1f3d; width: 130px; flex-shrink: 0; }
+.lp-tr-level { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; width: 60px; flex-shrink: 0; }
+.lp-tr-event { font-size: 11px; color: #64748b; line-height: 1.4; flex: 1; }
+
+/* ── RIGHT PANEL ── */
+.lp-hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lp-risk-display {
+  background: #0f1f3d;
+  border-radius: 24px;
+  padding: 32px;
+  width: 100%;
+  color: white;
+  box-shadow: 0 24px 60px rgba(15,31,61,0.25);
+}
+
+.lp-rd-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.lp-rd-score {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.lp-rd-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  font-weight: 900;
+  color: #ea580c;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.lp-rd-unit {
+  font-size: 24px;
+  color: rgba(255,255,255,0.3);
+  font-weight: 300;
+}
+
+.lp-rd-level {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ea580c;
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.lp-rd-bars { display: flex; flex-direction: column; gap: 10px; }
+
+.lp-rd-bar-row { display: flex; align-items: center; gap: 10px; }
+.lp-rd-bar-name { font-size: 11px; color: rgba(255,255,255,0.5); width: 120px; flex-shrink: 0; font-weight: 500; }
+.lp-rd-bar-track { flex: 1; height: 6px; background: rgba(255,255,255,0.08); border-radius: 99px; overflow: hidden; }
+.lp-rd-bar-fill { height: 100%; border-radius: 99px; transition: width 1s ease; min-width: 4px; }
+.lp-rd-bar-score { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; width: 28px; text-align: right; }
+
+/* ── STATS BAND ── */
+.lp-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #0f1f3d;
+  padding: 52px 60px;
+}
+
+@media (max-width: 700px) {
+  .lp-stats { grid-template-columns: repeat(2,1fr); padding: 36px 24px; }
+}
+
+.lp-stat {
+  text-align: center;
+  padding: 0 20px;
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+.lp-stat:last-child { border-right: none; }
+
+.lp-stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #ea580c;
+  margin-bottom: 6px;
+  letter-spacing: -1px;
+}
+
+.lp-stat-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.35);
+}
+
+/* ── STORY SECTION ── */
+.lp-story {
+  background: #faf8f4;
+  padding: 80px 40px;
+  border-top: 1px solid #e5ddd0;
+  border-bottom: 1px solid #e5ddd0;
+}
+
+.lp-story-inner { max-width: 1100px; margin: 0 auto; }
+
+.lp-section-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #dc2626;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lp-section-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  background: #dc2626;
+}
+
+.lp-section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 800;
+  color: #0f1f3d;
+  margin-bottom: 48px;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+}
+
+.lp-story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 700px) { .lp-story-grid { grid-template-columns: 1fr; } }
+
+.lp-story-card {
+  background: white;
+  border: 1px solid #e5ddd0;
+  border-radius: 16px;
+  padding: 28px;
+  transition: all 0.2s;
+}
+
+.lp-story-card:hover {
+  box-shadow: 0 12px 40px rgba(15,31,61,0.1);
+  transform: translateY(-4px);
+}
+
+.lp-sc-icon { font-size: 32px; margin-bottom: 14px; }
+
+.lp-sc-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0f1f3d;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.lp-sc-body { font-size: 14px; color: #64748b; line-height: 1.7; }
+
+.lp-story-bottom { text-align: center; }
+
+.lp-story-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-style: italic;
+  color: #0f1f3d;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px;
+  border-left: 4px solid #dc2626;
+  text-align: left;
+  background: white;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 4px 16px rgba(15,31,61,0.06);
+}
+
+/* ── HOW IT WORKS ── */
+.lp-how {
+  padding: 80px 40px;
+  background: white;
+}
+
+.lp-how-inner { max-width: 1100px; margin: 0 auto; }
+
+.lp-how-steps {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.lp-step {
+  flex: 1;
+  min-width: 220px;
+  padding: 0 32px;
+}
+
+.lp-step:first-child { padding-left: 0; }
+.lp-step:last-child { padding-right: 0; }
+
+.lp-step-arrow {
+  font-size: 28px;
+  color: #e5ddd0;
+  padding-top: 20px;
+  flex-shrink: 0;
+}
+
+.lp-step-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 900;
+  color: #f5ede0;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+
+.lp-step-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f1f3d;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.lp-step-body { font-size: 14px; color: #64748b; line-height: 1.7; }
+
+/* ── FINAL CTA ── */
+.lp-final-cta {
+  background: #0f1f3d;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.lp-fc-inner { max-width: 600px; margin: 0 auto; }
+
+.lp-fc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #dc2626;
+  background: rgba(220,38,38,0.12);
+  border: 1px solid rgba(220,38,38,0.3);
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 28px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.lp-fc-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 5vw, 60px);
+  font-weight: 900;
+  color: white;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+.lp-fc-sub {
+  font-size: 16px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* ── FOOTER ── */
+.lp-footer {
+  background: #0f1f3d;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: rgba(255,255,255,0.3);
+}
+
+.lp-footer-brand { color: #ea580c; font-weight: 600; font-size: 13px; }

@@ -1,0 +1,600 @@
+{
+  "analyzed_articles": [
+    {
+      "risk_score": 80,
+      "risk_level": "Critical",
+      "affected_countries": [
+        "United States",
+        "India",
+        "China",
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "Australia"
+      ],
+      "affected_industries": [
+        "Food & Agriculture"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "Fertilizer prices have surged 44% due to the Iran war, threatening global food security and potentially leading to inflation and increased hunger worldwide.",
+      "impact": "The surge in fertilizer prices is likely to have a significant impact on the food and agriculture industry, leading to higher production costs and potentially affecting global food supplies.",
+      "title": "Fertilizer prices surge 44% amid Iran war, raising food price concerns",
+      "url": "https://cryptobriefing.com/fertilizer-prices-surge-iran-war-food/",
+      "source": "Crypto Briefing",
+      "published_at": "2026-05-20T21:29:10Z"
+    },
+    {
+      "risk_score": 80,
+      "risk_level": "Critical",
+      "affected_countries": [
+        "United States",
+        "Saudi Arabia",
+        "UAE"
+      ],
+      "affected_industries": [
+        "Oil & Gas",
+        "Shipping & Logistics"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "The Iran conflict is causing geopolitical tensions in the Gulf region, potentially disrupting global oil supplies and shipping lanes.",
+      "impact": "Businesses reliant on oil imports or shipping through the Gulf region may face significant disruptions and increased costs due to the conflict.",
+      "title": "After Hormuz: The Gulf in Search of a New Order",
+      "url": "https://www.hoover.org/research/after-hormuz-gulf-search-new-order",
+      "source": "Hoover.org",
+      "published_at": "2026-05-19T00:00:00Z"
+    },
+    {
+      "risk_score": 70,
+      "risk_level": "High",
+      "affected_countries": [
+        "India"
+      ],
+      "affected_industries": [
+        "Textiles & Apparel"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "The Iran war is causing a hidden crisis of soaring costs and fleeing workers in India's industries, leading to margin erosion.",
+      "impact": "Corporate profits are being gutted due to the soaring costs and fleeing workers triggered by the geopolitical shock.",
+      "title": "Cruel summer: How Iran war shocks are silently gutting corporate profits",
+      "url": "https://www.livemint.com/companies/india-inc-west-asian-crisis-margin-impact-11779093787219.html",
+      "source": "Livemint",
+      "published_at": "2026-05-18T11:25:03Z"
+    },
+    {
+      "risk_score": 70,
+      "risk_level": "High",
+      "affected_countries": [
+        "South Korea"
+      ],
+      "affected_industries": [
+        "Electronics"
+      ],
+      "risk_type": "Labor Strike",
+      "summary": "Samsung Electronics is facing a potential labor strike due to disagreements over wage hikes and performance bonuses",
+      "impact": "The strike could disrupt Samsung's electronics production and supply chain, potentially leading to delays and losses for the company and its customers",
+      "title": "Samsung chairman apologizes to customers and public as labor strike looms",
+      "url": "https://www.sammobile.com/news/samsung-chairman-lee-apologizes-customers-public-labor-strike/",
+      "source": "SamMobile",
+      "published_at": "2026-05-18T09:33:22Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "United States",
+        "Canada",
+        "United Kingdom",
+        "Germany",
+        "France",
+        "Australia"
+      ],
+      "affected_industries": [
+        "Electronics",
+        "Semiconductors",
+        "Textiles & Apparel",
+        "Shipping & Logistics"
+      ],
+      "risk_type": "Other",
+      "summary": "Cyber threats are increasing for small and medium-sized businesses, prompting increased spending on security measures.",
+      "impact": "The growing cyber threats may disrupt business operations and supply chains if SMBs do not implement adequate security measures.",
+      "title": "Cyber threats push SMBs to spend more on security",
+      "url": "https://www.helpnetsecurity.com/2026/05/21/idc-smbs-cybersecurity-spending-report/",
+      "source": "Help Net Security",
+      "published_at": "2026-05-21T04:00:35Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "United States"
+      ],
+      "affected_industries": [
+        "Pharmaceuticals",
+        "Shipping & Logistics"
+      ],
+      "risk_type": "Pandemic",
+      "summary": "US aid cuts hindered Ebola detection and response efforts in East Africa, affecting disease surveillance and medical supply networks.",
+      "impact": "The reduced aid may lead to delayed or inadequate medical supply deliveries, potentially disrupting healthcare services and supply chains.",
+      "title": "Why US Ebola response faced hurdles #health",
+      "url": "https://alltoc.com/health/why-us-ebola-response-faced-hurdles",
+      "source": "Alltoc.com",
+      "published_at": "2026-05-21T00:04:04Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "United States",
+        "China",
+        "Taiwan"
+      ],
+      "affected_industries": [
+        "Semiconductors",
+        "Electronics"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "Nvidia's ambitious AI revenue target may intensify competition and influence tech investment strategies globally, potentially disrupting the semiconductor supply chain",
+      "impact": "Increased competition in the AI chip market may lead to supply chain disruptions and impact the ability of companies to source critical components",
+      "title": "Nvidia targets $1T in AI chip revenue by 2027, plans dividend growth",
+      "url": "https://cryptobriefing.com/nvidia-targets-1t-revenue-2027/",
+      "source": "Crypto Briefing",
+      "published_at": "2026-05-20T23:59:17Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "United States"
+      ],
+      "affected_industries": [
+        "Oil & Gas"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "The CFTC is investigating suspicious oil trades worth $800M placed before a Trump social media post, highlighting potential market manipulation.",
+      "impact": "This probe may lead to increased regulatory scrutiny and potential market volatility, affecting businesses involved in the oil and gas industry.",
+      "title": "CFTC probes $800M in suspicious oil trades placed before Trump social media post",
+      "url": "https://cryptobriefing.com/cftc-probes-oil-trades-trump-post/",
+      "source": "Crypto Briefing",
+      "published_at": "2026-05-20T23:26:02Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "United Kingdom",
+        "Germany",
+        "France"
+      ],
+      "affected_industries": [
+        "Defense",
+        "Electronics",
+        "Shipping & Logistics"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "Ukraine's drone strikes are disrupting Russia's war effort, posing a geopolitical risk to global supply chains",
+      "impact": "The conflict may lead to disruptions in international trade and logistics, affecting businesses that rely on imports from or exports to the region",
+      "title": "Ukrainian mid-range strikes deal double blow to Russia's war effort",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/ukrainian-mid-range-strikes-deal-double-blow-to-russias-war-effort/articleshow/131193852.cms",
+      "source": "The Times of India",
+      "published_at": "2026-05-19T07:34:08Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "United Kingdom",
+        "Germany",
+        "France"
+      ],
+      "affected_industries": [
+        "Shipping & Logistics",
+        "Steel & Metals",
+        "Oil & Gas"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "Ukraine's new war strategy against Russia may lead to increased geopolitical tensions and supply chain disruptions in the region.",
+      "impact": "Businesses with operations or suppliers in the affected countries may face delays, increased costs, and reduced availability of critical materials due to the ongoing conflict.",
+      "title": "Ukraine Has a New War Strategy\u2014and It\u2019s Working",
+      "url": "http://foreignpolicy.com/2026/05/18/ukraine-russia-war-strategy-attack/",
+      "source": "Foreign Policy",
+      "published_at": "2026-05-18T19:43:15Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "India",
+        "United States",
+        "Saudi Arabia",
+        "UAE"
+      ],
+      "affected_industries": [
+        "Oil & Gas",
+        "Electronics",
+        "Shipping & Logistics"
+      ],
+      "risk_type": "Geopolitical",
+      "summary": "The Iran war is causing concerns over its impact on the global economy and supply chains, leading to market volatility.",
+      "impact": "The geopolitical tensions may disrupt oil supplies and affect the operations of companies with global supply chains, particularly in the electronics and shipping industries.",
+      "title": "Sensex today | Stock Market Highlights: Sensex closes flat, Nifty ends at 23,650 as Iran war worries offset IT gains",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-18th-may-2026/article70990074.ece",
+      "source": "BusinessLine",
+      "published_at": "2026-05-18T10:32:45Z"
+    },
+    {
+      "risk_score": 60,
+      "risk_level": "High",
+      "affected_countries": [
+        "India"
+      ],
+      "affected_industries": [
+        "Semiconductors",
+        "Electronics"
+      ],
+      "risk_type": "Shortage",
+      "summary": "The Indian government's semiconductor incentives may exceed $10 billion due to a global supply shortage of memory, a key input",
+      "impact": "The shortage is expected to elevate global prices for at least 18 months, potentially disrupting the electronics and semiconductor industries",
+      "title": "Govt's semicon sops 2.0 may top $10 billion: IESA prez",
+      "url": "https://economictimes.indiatimes.com/tech/technology/govts-semicon-sops-2-0-may-top-10-billion-iesa-prez/articleshow/131233086.cms",
+      "source": "The Times of India",
+      "published_at": "2026-05-21T00:30:00Z"
+    },
+    {
+      "risk_score": 40,
+      "risk_level": "Medium",
+      "affected_countries": [
+        "United States",
+        "China",
+        "Germany",
+        "United Kingdom"
+      ],
+      "affected_industries": [
+        "Automotive",
+        "Electronics"
+      ],
+      "risk_type": "Other",
+      "summary": "The shift to electric vehicles may pose a risk to businesses that fail to adapt to the changing landscape of the automotive industry.",
+      "impact": "Companies that do not transition to electric fleets may face significant disruptions to their operations and ultimately risk going out of business.",
+      "title": "Electrifying your fleet isn\u2019t just about going green \u2013 it\u2019s about staying in business",
+      "url": "http://electrek.co/2026/05/20/electrifying-your-fleet-isnt-just-about-going-green-its-about-staying-in-business/",
+      "source": "Electrek",
+      "published_at": "2026-05-21T00:33:10Z"
+    },
+    {
+      "risk_score": 40,
+      "risk_level": "Medium",
+      "affected_countries": [
+        "China",
+        "South Korea"
+      ],
+      "affected_industries": [
+        "Semiconductors",
+        "Electronics"
+      ],
+      "risk_type": "Shortage",
+      "summary": "The memory crisis is predicted to end by mid-2027 due to increased Chinese manufacturing capacity and other factors.",
+      "impact": "The end of the memory crisis is expected to stabilize the supply chain for electronics and semiconductor industries, potentially leading to reduced costs and increased production.",
+      "title": "Former Samsung boss says when the memory crisis will be over",
+      "url": "https://www.tweaktown.com/news/111716/former-samsung-boss-says-when-the-memory-crisis-will-be-over/index.html",
+      "source": "TweakTown",
+      "published_at": "2026-05-20T18:15:06Z"
+    },
+    {
+      "risk_score": 40,
+      "risk_level": "Medium",
+      "affected_countries": [
+        "India"
+      ],
+      "affected_industries": [
+        "Semiconductors",
+        "Electronics"
+      ],
+      "risk_type": "Shortage",
+      "summary": "India's large-scale self-reliance in chip production remains years away, posing a risk to its semiconductor and electronics industries",
+      "impact": "This may lead to continued dependence on foreign suppliers, potentially disrupting India's electronics manufacturing and impacting business operations",
+      "title": "Mint Explainer | Where does India stand in its chip ambitions?",
+      "url": "https://www.livemint.com/industry/india-chip-manufacturing-ambitions-tata-electronics-asml-pact-semiconductor-mission-11779178446149.html",
+      "source": "Livemint",
+      "published_at": "2026-05-19T09:25:54Z"
+    },
+    {
+      "risk_score": 30,
+      "risk_level": "Medium",
+      "affected_countries": [
+        "South Korea",
+        "United States"
+      ],
+      "affected_industries": [
+        "Semiconductors",
+        "Electronics"
+      ],
+      "risk_type": "Labor Strike",
+      "summary": "Samsung's tentative wage deal with its largest labor union averts a potential strike that could have disrupted the global memory-chip supply chain",
+      "impact": "The strike's avoidance mitigates the risk of supply chain disruptions and potential delays in the production of AI-driven technologies",
+      "title": "Samsung dodges global AI chip shock",
+      "url": "https://www.rt.com/business/640319-samsung-ai-bonus-strike/",
+      "source": "RT",
+      "published_at": "2026-05-21T03:42:30Z"
+    },
+    {
+      "risk_score": 20,
+      "risk_level": "Low",
+      "affected_countries": [
+        "South Korea"
+      ],
+      "affected_industries": [
+        "Electronics",
+        "Semiconductors"
+      ],
+      "risk_type": "Labor Strike",
+      "summary": "Samsung Electronics has averted an 18-day strike with a tentative wage deal, mitigating potential supply chain disruptions",
+      "impact": "The deal is expected to stabilize AI hardware costs and support the growth of decentralized GPU networks",
+      "title": "Samsung Electronics averts 18-day strike with tentative wage deal",
+      "url": "https://cryptobriefing.com/samsung-averts-strike-wage-deal/",
+      "source": "Crypto Briefing",
+      "published_at": "2026-05-21T03:52:27Z"
+    }
+  ],
+  "country_risk": {
+    "China": {
+      "score": 70.0,
+      "level": "High",
+      "article_count": 4,
+      "lat": 35.86,
+      "lng": 104.19,
+      "region": "Asia Pacific"
+    },
+    "Taiwan": {
+      "score": 60.0,
+      "level": "High",
+      "article_count": 1,
+      "lat": 23.69,
+      "lng": 120.96,
+      "region": "Asia Pacific"
+    },
+    "South Korea": {
+      "score": 58.0,
+      "level": "High",
+      "article_count": 4,
+      "lat": 35.9,
+      "lng": 127.76,
+      "region": "Asia Pacific"
+    },
+    "Japan": {
+      "score": 5,
+      "level": "Low",
+      "article_count": 0,
+      "lat": 36.2,
+      "lng": 138.25,
+      "region": "Asia Pacific"
+    },
+    "India": {
+      "score": 72.8,
+      "level": "High",
+      "article_count": 5,
+      "lat": 20.59,
+      "lng": 78.96,
+      "region": "Asia Pacific"
+    },
+    "Vietnam": {
+      "score": 5,
+      "level": "Low",
+      "article_count": 0,
+      "lat": 14.05,
+      "lng": 108.27,
+      "region": "Asia Pacific"
+    },
+    "Malaysia": {
+      "score": 5,
+      "level": "Low",
+      "article_count": 0,
+      "lat": 4.21,
+      "lng": 101.97,
+      "region": "Asia Pacific"
+    },
+    "Thailand": {
+      "score": 5,
+      "level": "Low",
+      "article_count": 0,
+      "lat": 15.87,
+      "lng": 100.99,
+      "region": "Asia Pacific"
+    },
+    "United States": {
+      "score": 71.6,
+      "level": "High",
+      "article_count": 9,
+      "lat": 37.09,
+      "lng": -95.71,
+      "region": "North America"
+    },
+    "Mexico": {
+      "score": 5,
+      "level": "Low",
+      "article_count": 0,
+      "lat": 23.63,
+      "lng": -102.55,
+      "region": "North America"
+    },
+    "Canada": {
+      "score": 60.0,
+      "level": "High",
+      "article_count": 1,
+      "lat": 56.13,
+      "lng": -106.34,
+      "region": "North America"
+    },
+    "Germany": {
+      "score": 58.0,
+      "level": "High",
+      "article_count": 4,
+      "lat": 51.16,
+      "lng": 10.45,
+      "region": "Europe"
+    },
+    "Netherlands": {
+      "score": 5,
+      "level": "Low",
+      "article_count": 0,
+      "lat": 52.13,
+      "lng": 5.29,
+      "region": "Europe"
+    },
+    "United Kingdom": {
+      "score": 72.0,
+      "level": "High",
+      "article_count": 5,
+      "lat": 55.37,
+      "lng": -3.43,
+      "region": "Europe"
+    },
+    "France": {
+      "score": 74.0,
+      "level": "High",
+      "article_count": 4,
+      "lat": 46.22,
+      "lng": 2.21,
+      "region": "Europe"
+    },
+    "Brazil": {
+      "score": 80.0,
+      "level": "Critical",
+      "article_count": 1,
+      "lat": -14.23,
+      "lng": -51.92,
+      "region": "South America"
+    },
+    "Australia": {
+      "score": 76.0,
+      "level": "Critical",
+      "article_count": 2,
+      "lat": -25.27,
+      "lng": 133.77,
+      "region": "Oceania"
+    },
+    "Saudi Arabia": {
+      "score": 76.0,
+      "level": "Critical",
+      "article_count": 2,
+      "lat": 23.88,
+      "lng": 45.07,
+      "region": "Middle East"
+    },
+    "UAE": {
+      "score": 76.0,
+      "level": "Critical",
+      "article_count": 2,
+      "lat": 23.42,
+      "lng": 53.84,
+      "region": "Middle East"
+    }
+  },
+  "industry_risk": {
+    "Semiconductors": {
+      "score": 44.3,
+      "level": "Medium",
+      "article_count": 7,
+      "key_suppliers": [
+        "Taiwan",
+        "South Korea",
+        "China",
+        "Japan",
+        "United States"
+      ]
+    },
+    "Automotive": {
+      "score": 40.0,
+      "level": "Medium",
+      "article_count": 1,
+      "key_suppliers": [
+        "Germany",
+        "Japan",
+        "South Korea",
+        "China",
+        "Mexico"
+      ]
+    },
+    "Pharmaceuticals": {
+      "score": 60.0,
+      "level": "High",
+      "article_count": 1,
+      "key_suppliers": [
+        "India",
+        "China",
+        "United States",
+        "Germany"
+      ]
+    },
+    "Electronics": {
+      "score": 49.1,
+      "level": "Medium",
+      "article_count": 11,
+      "key_suppliers": [
+        "China",
+        "Taiwan",
+        "South Korea",
+        "Vietnam",
+        "Malaysia"
+      ]
+    },
+    "Oil & Gas": {
+      "score": 65.0,
+      "level": "High",
+      "article_count": 4,
+      "key_suppliers": [
+        "Saudi Arabia",
+        "UAE",
+        "United States",
+        "Canada"
+      ]
+    },
+    "Food & Agriculture": {
+      "score": 80.0,
+      "level": "Critical",
+      "article_count": 1,
+      "key_suppliers": [
+        "Brazil",
+        "United States",
+        "China",
+        "India",
+        "Australia"
+      ]
+    },
+    "Steel & Metals": {
+      "score": 60.0,
+      "level": "High",
+      "article_count": 1,
+      "key_suppliers": [
+        "China",
+        "India",
+        "Japan",
+        "South Korea",
+        "Germany"
+      ]
+    },
+    "Textiles & Apparel": {
+      "score": 65.0,
+      "level": "High",
+      "article_count": 2,
+      "key_suppliers": [
+        "China",
+        "Vietnam",
+        "Bangladesh",
+        "India",
+        "Thailand"
+      ]
+    },
+    "Shipping & Logistics": {
+      "score": 63.3,
+      "level": "High",
+      "article_count": 6,
+      "key_suppliers": [
+        "Netherlands",
+        "United States",
+        "China",
+        "Singapore"
+      ]
+    }
+  },
+  "last_updated": "2026-05-21T23:11:42.785322"
+}

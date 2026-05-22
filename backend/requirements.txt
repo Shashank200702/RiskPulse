@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+requests
+groq
+python-dotenv
+pandas
+pydantic
+python-multipart

@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import Landing from "./Landing";
 import axios from "axios";
 import { MapContainer, TileLayer, CircleMarker, Tooltip } from "react-leaflet";
 import {
@@ -9,7 +8,7 @@ import {
 import "leaflet/dist/leaflet.css";
 import "./App.css";
 
-const API = "http://localhost:8000";
+const API = "https://shashankmugali-riskpulse-api.hf.space";
 
 const RISK_COLORS = { Low: "#059669", Medium: "#d97706", High: "#ea580c", Critical: "#dc2626" };
 const RISK_LIGHT = { Low: "#d1fae5", Medium: "#fef3c7", High: "#ffedd5", Critical: "#fee2e2" };
@@ -275,7 +274,7 @@ const CustomBarTooltip = ({ active, payload }) => {
 
 // ── Main ───────────────────────────────────────────────────────────────────
 export default function App() {
-  const [page, setPage] = useState("landing");
+  const [page, setPage] = useState("dashboard");
   const [globalData, setGlobalData] = useState(null);
   const [countryData, setCountryData] = useState({});
   const [industryData, setIndustryData] = useState({});
@@ -327,10 +326,6 @@ export default function App() {
   const riskTypeData = Object.entries(globalData?.risk_type_breakdown || {})
     .map(([name, count]) => ({ name, count }))
     .sort((a,b) => b.count - a.count);
-
-  if (page === "landing") {
-    return <Landing onEnter={() => setPage("dashboard")} />;
-  }
 
   return (
     <div className="app">

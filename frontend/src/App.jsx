@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import Landing from "./Landing";
 import axios from "axios";
 import { MapContainer, TileLayer, CircleMarker, Tooltip } from "react-leaflet";
 import {
@@ -274,7 +275,7 @@ const CustomBarTooltip = ({ active, payload }) => {
 
 // ── Main ───────────────────────────────────────────────────────────────────
 export default function App() {
-  const [page, setPage] = useState("dashboard");
+  const [page, setPage] = useState("landing");
   const [globalData, setGlobalData] = useState(null);
   const [countryData, setCountryData] = useState({});
   const [industryData, setIndustryData] = useState({});
@@ -326,6 +327,10 @@ export default function App() {
   const riskTypeData = Object.entries(globalData?.risk_type_breakdown || {})
     .map(([name, count]) => ({ name, count }))
     .sort((a,b) => b.count - a.count);
+
+  if (page === "landing") {
+    return <Landing onEnter={() => setPage("dashboard")} />;
+  }
 
   return (
     <div className="app">
